@@ -6,7 +6,7 @@ TriOsc b => dac;
 0 => b.freq;
 
 while (true ) {
-  40 => a.freq;
+  60 => a.freq;
   700 => b.freq;
 
   0.1 :: second => now;
